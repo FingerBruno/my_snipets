@@ -3,13 +3,13 @@
 ##Rest Framework Viewset
 
 <b>app/views.py:</b>
-  from snippets.models import Article
-  from rest_framework import viewsets
-  from yourapp.serializers import ArticleSerializer
+    from snippets.models import Article
+    from rest_framework import viewsets
+    from yourapp.serializers import ArticleSerializer
 
-  class ArticleViewSet(viewsets.ModelViewSet):
-      queryset = Article.objects.all()
-      serializer_class = ArticleSerializer
+    class ArticleViewSet(viewsets.ModelViewSet):
+        queryset = Article.objects.all()
+        serializer_class = ArticleSerializer
 
 <b>setup/urls.py:</b>
   from django.conf.urls import url, include
