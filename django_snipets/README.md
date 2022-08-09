@@ -5,5 +5,5 @@
 
 ![](https://studygyaan.com/wp-content/uploads/2019/07/Best-Practice-to-Structure-Django-Project-Directories-and-Files-1024x676.png)
 
-**Django workflow**
+**Django workflow** </br>
 ![](https://learnbatta.com/assets/images/django/request_response_lifecycle_Django.png)
